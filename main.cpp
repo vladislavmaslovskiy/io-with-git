@@ -3,10 +3,6 @@ int main()
 {
   int a = 0;
   std::cin >> a;
-  if (std::cin.good())
-  {
-    std::cerr << "Good!\n";
-  }
   else if (std::cin.eof())
   {
     std::cerr << "Eof!\n";
