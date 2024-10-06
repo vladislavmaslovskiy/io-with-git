@@ -7,10 +7,6 @@ int main()
   {
     std::cerr << "Eof!\n";
   }
-  else if (std::cin.bad())
-  {
-    std::cerr << "Bad!\n";
-  }
   else if (std::cin.fail())
   {
     std::cerr << "Fail\n";
